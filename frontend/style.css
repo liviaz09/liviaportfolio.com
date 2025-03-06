@@ -193,16 +193,16 @@ nav .pages .button:hover {
   }
   
   .education-section .group {
-    display: flex; 
-    justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 10px;
+    display: inline; 
+    margin-bottom: 20px;
   }
   
-  .education-section .education-description {
-    flex: 2;
-    display: inline;
-    gap: 40px;
+  .education-details {
+    text-align:left;
+    margin-bottom: 10px;
+  }
+
+  .education-description {
     margin-bottom: 10px;
   }
 
@@ -219,7 +219,7 @@ nav .pages .button:hover {
     
     .experience-section .group {
       display: inline; 
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
     
     .experience-section .group .experience-details, .experience-description {
@@ -240,10 +240,12 @@ nav .pages .button:hover {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    margin-bottom: 20px;
   }
 
   .projects-section h2 {
     font-size: 35px;
+    margin-bottom: 20px;
   }
   
   .projects-section .project-description {
@@ -256,12 +258,11 @@ nav .pages .button:hover {
     height:200px;
     object-fit: cover;
     border-radius: 1.5%;
-    filter: brightness(1.1);
     border: solid 2px white;
   }
 
   .project-image img:hover {
-    filter: brightness(0.9);
+    filter: drop-shadow(5px 5px grey);
     border: solid 2px white;
   }
   .projects-section .group .cells .cell{
